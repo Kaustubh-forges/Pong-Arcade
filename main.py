@@ -14,8 +14,8 @@ screen=t.Screen()
 screen.title("Pong")
 screen.setup(width=800,height=600)
 screen.bgcolor("black")
-screen.tracer(0)
-screen.listen()
+screen.tracer(0) # Turing off automatic screen updates to update manually when needed
+screen.listen() # Used to listen to keyboard clicks from user
 
 # Creating ball object + Use of class "Ball"
 ball=ball.Ball()
